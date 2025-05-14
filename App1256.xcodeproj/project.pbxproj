@@ -27,6 +27,12 @@
 		784E07242D9EFD0E00F3B546 /* StatInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784E07232D9EFD0E00F3B546 /* StatInfo.swift */; };
 		784E07272D9F127000F3B546 /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784E07262D9F127000F3B546 /* EditProfile.swift */; };
 		784E072A2D9F160200F3B546 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784E07292D9F160200F3B546 /* GraphView.swift */; };
+		7865883B2DD4C1E500869341 /* Dfv2wef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7865883A2DD4C1E500869341 /* Dfv2wef.swift */; };
+		7865883D2DD4C1EB00869341 /* Srtgrtf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7865883C2DD4C1EB00869341 /* Srtgrtf.swift */; };
+		7865883F2DD4C1F300869341 /* Wvterfw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7865883E2DD4C1F300869341 /* Wvterfw.swift */; };
+		786588492DD4C70400869341 /* U1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786588482DD4C70400869341 /* U1.swift */; };
+		7865884B2DD4C70B00869341 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7865884A2DD4C70B00869341 /* Reviews.swift */; };
+		7865884D2DD4C71000869341 /* Not.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7865884C2DD4C71000869341 /* Not.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +58,12 @@
 		784E07232D9EFD0E00F3B546 /* StatInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatInfo.swift; sourceTree = "<group>"; };
 		784E07262D9F127000F3B546 /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
 		784E07292D9F160200F3B546 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		7865883A2DD4C1E500869341 /* Dfv2wef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dfv2wef.swift; sourceTree = "<group>"; };
+		7865883C2DD4C1EB00869341 /* Srtgrtf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Srtgrtf.swift; sourceTree = "<group>"; };
+		7865883E2DD4C1F300869341 /* Wvterfw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wvterfw.swift; sourceTree = "<group>"; };
+		786588482DD4C70400869341 /* U1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U1.swift; sourceTree = "<group>"; };
+		7865884A2DD4C70B00869341 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		7865884C2DD4C71000869341 /* Not.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Not.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +162,9 @@
 				784E06E22D9DA25000F3B546 /* CoreDataStack.swift */,
 				784E06E42D9DA25A00F3B546 /* Array.swift */,
 				784E06E62D9DA26100F3B546 /* DateConvert.swift */,
+				7865883A2DD4C1E500869341 /* Dfv2wef.swift */,
+				7865883C2DD4C1EB00869341 /* Srtgrtf.swift */,
+				7865883E2DD4C1F300869341 /* Wvterfw.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -173,6 +188,7 @@
 		784E06DC2D9DA22600F3B546 /* OBR */ = {
 			isa = PBXGroup;
 			children = (
+				786588472DD4C6F000869341 /* U1 */,
 				784E06E82D9DA3CE00F3B546 /* R1.swift */,
 				784E06EA2D9DA3D200F3B546 /* R2.swift */,
 			);
@@ -219,6 +235,16 @@
 				784E07292D9F160200F3B546 /* GraphView.swift */,
 			);
 			path = GraphView;
+			sourceTree = "<group>";
+		};
+		786588472DD4C6F000869341 /* U1 */ = {
+			isa = PBXGroup;
+			children = (
+				786588482DD4C70400869341 /* U1.swift */,
+				7865884A2DD4C70B00869341 /* Reviews.swift */,
+				7865884C2DD4C71000869341 /* Not.swift */,
+			);
+			path = U1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +318,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7865883B2DD4C1E500869341 /* Dfv2wef.swift in Sources */,
 				784E06E92D9DA3CE00F3B546 /* R1.swift in Sources */,
+				786588492DD4C70400869341 /* U1.swift in Sources */,
 				784E071E2D9EF3AB00F3B546 /* OperationsView.swift in Sources */,
 				784E06C92D9D858500F3B546 /* ContentView.swift in Sources */,
 				784E07272D9F127000F3B546 /* EditProfile.swift in Sources */,
@@ -300,12 +328,16 @@
 				784E06E52D9DA25A00F3B546 /* Array.swift in Sources */,
 				784E06E12D9DA24600F3B546 /* CoreModel.xcdatamodeld in Sources */,
 				784E07212D9EF3B700F3B546 /* AddOper.swift in Sources */,
+				7865883F2DD4C1F300869341 /* Wvterfw.swift in Sources */,
 				784E06C72D9D858500F3B546 /* App1256App.swift in Sources */,
 				784E06F12D9DA3FA00F3B546 /* HomeView.swift in Sources */,
 				784E06E32D9DA25000F3B546 /* CoreDataStack.swift in Sources */,
 				784E06F32D9DA40300F3B546 /* HomeViewModel.swift in Sources */,
+				7865884B2DD4C70B00869341 /* Reviews.swift in Sources */,
+				7865884D2DD4C71000869341 /* Not.swift in Sources */,
 				784E06E72D9DA26100F3B546 /* DateConvert.swift in Sources */,
 				784E072A2D9F160200F3B546 /* GraphView.swift in Sources */,
+				7865883D2DD4C1EB00869341 /* Srtgrtf.swift in Sources */,
 				784E06EB2D9DA3D300F3B546 /* R2.swift in Sources */,
 				784E06ED2D9DA3D900F3B546 /* LoadingView.swift in Sources */,
 				784E06EF2D9DA3DF00F3B546 /* TabBar.swift in Sources */,
@@ -440,7 +472,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App1256/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Spoket Manager Transactions\n";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pọcкet:Оρtiọn Manager";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -456,7 +488,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App1256;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -479,7 +511,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App1256/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Spoket Manager Transactions\n";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pọcкet:Оρtiọn Manager";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -495,7 +527,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App1256;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
